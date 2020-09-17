@@ -8,12 +8,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/styles.css">
+  <link rel="shortcut icon" href="./assets/images/portFav.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/images/portFav.ico" type="image/x-icon">
 </head>
 
 <body>
   <div id="navbar">
     <h2 class="nav-left">JD Designs</h2>
-    <i class="nes-logo" class="nav-left"></i>
+    <i id="logo-icon" class="nes-logo" class="nav-left"></i>
     <a href="#projects" class="nav-right">Projects</a>
     <a href="#about-me" class="nav-right">About Me</a>
   </div>
@@ -21,9 +23,12 @@
   <div class="nes-container is-rounded is-dark" id="welcome-section">
     <h1>It's a me, James Dobbe!</h1>
     <h2> And I develop websites!</h2>
+    <!-- Copyright Nintendo -->
+    <i class="nes-mario is-medium"></i>
   </div>
 
-  <h1>My Projects</h1>
+  <div class="nes-container with-title is-centered" id="project-container">
+  <h1 class="title">My Projects</h1>
 
   <div id="projects">
     <div class="project-tile" id="tribute">
@@ -47,16 +52,18 @@
       <a href="https://dobbe2.github.io/techDocumentationPage/">Click here to learn about CSS animations</a>
     </div>
   </div>
-  <hr><br>
+  </div> 
+
+  <br>
   <div id="about-me">
-    <h3>Learn More About My Sweet Code</h3>
+    <h3>Learn More About Me</h3>
     <div id="icon-row">
     <!-- github -->
-    <a href="https://github.com/dobbe2" target="_blank" id="profile-link"><i class="nes-icon github is-medium"></i></a>
+    <a href="https://github.com/dobbe2" target="_blank" id="profile-link"><i class="nes-icon github is-medium"></i>GitHub</a>
     <!-- linkedin -->
-    <a href="https://www.linkedin.com/in/james-dobbe/" target="_blank" id="linkedin-link"><i
-        class="nes-icon linkedin is-medium"></i></a>
-    <a href="mailto:dobbe2@gmail.com"><i class="nes-icon gmail is-medium"></i></a>
+    <a href="https://www.linkedin.com/in/james-dobbe/" target="_blank" id="linkedin-link"><i class="nes-icon linkedin is-medium"></i>Linkedin</a>
+    <!-- gmail -->
+    <a href="mailto:dobbe2@gmail.com"><i class="nes-icon gmail is-medium"></i>Email</a>
     </div>
   </div>
 
